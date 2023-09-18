@@ -8,25 +8,25 @@ if playing.lower() != "yes":
 print("Okay! let's play")
 
 answer = input("What is CPU in full? ")
-if answer.lower() == "Central Processing Unit":
+if answer.lower() == "central processing unit":
     print("Correct!")
 else:
     print("Incorrect")
 
 answer = input("What is RAM in full? ")
-if answer.lower() == "Random Access Memory":
+if answer.lower() == "random access memory":
     print("Correct!")
 else:
     print("Incorrect")
 
 answer = input("What is PU in full? ")
-if answer.lower() == "Power Unit":
+if answer.lower() == "power unit":
     print("Correct!")
 else:
     print("Incorrect")
 
 answer = input("What is LCD in full? ")
-if answer.lower() == "Liquid Crystal Display":
+if answer.lower() == "liquid crystal display":
     print("Correct!")
 else:
     print("Incorrect")
