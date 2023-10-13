@@ -2,7 +2,7 @@ import time
 
 while True:
     def intro():
-        print("You are most welcome to our restaurant!")
+        print("\nYou are most welcome to our restaurant!")
         print("\nPlease make your order.")
     
 
@@ -16,20 +16,25 @@ while True:
             time.sleep(1)
             print(request, 'is not available. Choose another.')
             quit()
+    intro()
     
+    
+
 
     def sauce():
         print("please choose your sauce.")
         sauces = ['Beans', 'Meat', 'Beef', 'G-nuts', 'Pease', 'Chicken', ]
         request = input("please enter sauce: ")
         if request in sauces:
-            print(sauces, 'is available.')
+            print(request, 'is available.')
         else:
             print('Processing...')
             time.sleep(1)
-            print(sauces, 'is not available.')
+            print(request, 'is not available.')
             quit()
-    
+    intro()
+    food_types()
+
 
     def drinks():
         print("What drink would you like to have?")
@@ -37,13 +42,16 @@ while True:
             drink = ('Water', 'Coke', 'Pepsi', 'Mirinda', 'Fanta', 'Novida')
             request = input("Choose a soft drink: ")
             if request in drink:
-                print(drink, "is available")
+                print(request, "is available")
             else:
                 print('Processing...')
                 time.sleep(1)
-                print(drink, 'is not available.')
+                print(request, 'is not available.')
                 quit()
         soft_drinks()
+    intro()
+    food_types()
+    sauce()
     
         
         
@@ -54,9 +62,7 @@ while True:
     def thank_you():
         print("PLEASE ENJOY YOUR MEAL!...")
     
-    intro()
-    food_types()
-    sauce()
+    
     drinks()
     break
 
