@@ -18,8 +18,6 @@ while True:
             quit()
     intro()
     
-    
-
 
     def sauce():
         print("please choose your sauce.")
@@ -56,7 +54,7 @@ while True:
         
         
     def alcoholic_drinks():
-            yo_ddrink = ('', '', '', '')
+            yo_drink = ('', '', '', '')
     alcoholic_drinks()
 
     def thank_you():
