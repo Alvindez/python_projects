@@ -1,11 +1,10 @@
 import json
 
-fin = open("dictionary.json", "r")
-
-cont = json.load(fin)
+with open("dictionary.json", "r") as file:
+    cont = json.load(file)
 
 def dispwords():
-    letter = input("Enter the letter to display words with which it begins with: ")
+    letter = input("Enter the letter to display words with which it begins with: ").lower()
     for i in cont:
         if i.startswith(letter):
             print(i)
