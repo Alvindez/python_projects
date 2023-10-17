@@ -3,10 +3,6 @@
 try:
     users = [['alvin', 'a123'],['ben', 'gh_3tw'],['Chris', '@quc98']]
 
-    # def add_users():
-    #     users.append('cliff', 'cl468f')
-    #     print (users)
-
     def login(users):
         while True:
             username = input("Please enter a username: ")
