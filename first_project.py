@@ -37,5 +37,5 @@ if answer.lower() == "liquid crystal display":
 else:
     print("Incorrect")
 
-    print("You got"  +   str(score)   +  "questions correct")
+print("You got: "  +   str(score)   +  " :questions correct")
     

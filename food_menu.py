@@ -16,7 +16,7 @@ while True:
             time.sleep(1)
             print(request, 'is not available. Choose another.')
             quit()
-    intro()
+    
     
 
     def sauce():
@@ -30,8 +30,7 @@ while True:
             time.sleep(1)
             print(request, 'is not available.')
             quit()
-    intro()
-    food_types()
+    
 
 
     def drinks():
@@ -46,10 +45,8 @@ while True:
                 time.sleep(1)
                 print(request, 'is not available.')
                 quit()
-        soft_drinks()
-    intro()
-    food_types()
-    sauce()
+        
+    
     
         
         
@@ -64,5 +61,8 @@ while True:
     drinks()
     break
 
-
+intro()
+food_types()
+sauce()
+soft_drinks()
 
