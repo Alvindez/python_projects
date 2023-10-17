@@ -1,6 +1,6 @@
 import json
 
-fin = open("login\Dictionary\dictionary.json", "r")
+fin = open("dictionary.json", "r")
 
 cont = json.load(fin)
 
